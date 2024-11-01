@@ -1,0 +1,25 @@
+@media (width < 750px) {
+    header {
+        flex-direction: column;
+        padding-block: 1em;
+
+    }
+}
+
+@media (width < 450px){
+    menu{
+        font-size: 1.2rem;
+    }
+}
+
+@media (width < 555px) {
+    fieldset>div.input:nth-child(1) {
+      flex-basis: 100%;
+    }
+}
+
+@media (width < 510px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
